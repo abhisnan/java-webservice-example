@@ -8,7 +8,7 @@ public class HelloWorld {
 
     @RequestMapping("/")
     public String index(){
-        String s = "Hello World";
+        String s = "This Java service is deployed on AWS App Runner";
         return s;
     }
 }
